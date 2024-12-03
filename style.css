@@ -1,0 +1,105 @@
+.codecolor{
+        color: orange;
+        font-size: 40px;
+}
+
+.labcolor{
+font-size: 40px;
+        color:#fff;
+}
+
+header{
+
+        display: flex;
+        align-content: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        background-color: #17171A;
+
+}
+
+#txtBusca {
+    background-color: #333; /* Fundo cinza escuro */
+    color: white; /* Texto branco */
+    width: 800px; /* Ajusta-se à largura disponível */
+    max-width: 1200px; /* Limita a largura máxima a 1200px */
+    height: 60px; /* Altura fixa */
+    border: none; /* Remove a borda padrão */
+    border-radius: 5px; /* Cantos arredondados (opcional) */
+    padding: 0 15px; /* Espaçamento interno */
+    font-size: 18px; /* Tamanho do texto */
+    box-sizing: border-box; /* Garante que padding não aumente o tamanho total */
+    margin: 0 auto; /* Centraliza o input horizontalmente */
+    display: block; /* Garante que o margin funcione corretamente */
+    padding: 20px;
+    margin: 48px;
+  } 
+
+
+  #txtBusca::placeholder {
+    color: white; /* Placeholder branco */
+    opacity: 0.7; /* Transparência do placeholder */
+  }
+
+  #txtBusca:focus {
+    outline: none; /* Remove o contorno ao focar */
+    box-shadow: 0 0 5px #555; /* Efeito*/
+}
+
+.date{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+.first-box{
+        color: #fff;
+        background-color: #17171A;
+        border: 2px solid orangered;
+        width: 800px;
+        margin: 50px;
+        padding: 20px;
+        border-radius: 10px;
+
+}
+
+.second-box{
+        color: #fff;
+        background-color: #17171A;
+        border: 2px solid #222121;;
+        width: 800px;
+        margin: 50px;
+        padding: 20px;
+        border-radius: 10px;
+
+        
+
+
+}
+
+.third-box{
+        color: #fff;
+        background-color: #17171A;
+        border: 2px solid #222121;;
+        width: 800px;
+        margin: 50px;
+        padding: 20px;
+        border-radius: 10px;
+
+
+
+}
+
+section{
+        color: #fff;
+        background-color: #17171A;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+}
+
+.textgray{
+color: gray;
+}
